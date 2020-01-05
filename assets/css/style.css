@@ -1,0 +1,159 @@
+html, body{
+    height: 100%;
+}
+
+
+/* Шапка сайта */
+.header a, a:hover{
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+.header h1{
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+
+.header p{
+    color: white !important;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+
+.nav-pills li.active a,
+.nav-pills a:hover,
+.nav-pills li a:focus {
+    color: #fff;
+    background-color: #346270;
+}
+
+.nav-pills li a{
+    color: #fff;
+}
+
+.nav-pills li a:hover{
+    background-color: #346270;
+}
+
+.navbar-inverse{
+    border-radius: 0;
+    padding: 1%;
+}
+
+@media (max-width: 767px){
+    .nav-pills>li{
+        float: none;
+    }
+    .nav-pills{
+        text-align: center;
+    }
+    .header h1{
+        font-size: 280%;
+        letter-spacing: 5px;
+    }
+    .header{
+        text-align: center;
+    }
+}
+
+
+/* Основная часть сайта */
+.clear{
+    clear: both;
+    height: 63px;
+}
+
+.wrapper{
+    min-height: 100%;
+}
+
+.films_block{
+    text-align: center;
+}
+
+.films_block img{
+    width: 100%;
+    border: 5px solid #dad7d5;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.film_label{
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.margin-8{
+    margin-top: 8%;
+}
+
+.panel{
+    border: none;
+}
+
+.panel-body{
+    background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading{
+    background-color: #f0ad4e;
+    color: white;
+    border-color: transparent;
+}
+
+.sidebare-header{
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.input-lg{
+    font-size: 14px;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+
+.badge{
+    color: white;
+    background-color: black;
+}
+
+.info-block{
+    font-size: 120%;
+}
+
+.info-block .badge{
+    font-size: 80%;
+    margin-right: 3%;
+}
+
+.info-block .badge:last-child{
+    margin-right: 0;
+}
+
+textarea.form-control{
+    height: 200px; 
+}
+
+.table tbody>tr>td{
+    vertical-align: middle;
+}
+
+
+/* Подвал сайта */
+footer{
+    color: #666;
+    background-color: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a{
+    color: #999;
+}
+
+footer a:hover{
+    color: #efefef;
+}
+
