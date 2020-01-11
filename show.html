@@ -36,10 +36,10 @@
             <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
               <ul class="nav nav-pills">
                 <li> <a href="index.html">Главная</a> </li>
-                <!--<li class="active"> <a href="#">Фильмы</a> </li> -->
-                <li> <a href="films.html">Фильмы</a> </li>
-                <li> <a href="rating.html">Рейтинг фильмов</a> </li>
-                <li> <a href="contact.html">Контакты</a> </li>
+                <li class="active"> <a href="#">Фильмы</a> </li>
+                <li> <a href="#">Фильмы</a> </li>
+                <li> <a href="#">Рейтинг фильмов</a> </li>
+                <li> <a href="#">Контакты</a> </li>
               </ul>
             </div>
           </div>
@@ -54,22 +54,17 @@
         <div class="row">
           <div class="col-lg-9 col-lg-push-3">
 
-            <form role = "search" class = "visible-xs">
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="search" class = "form-control input-lg" placeholder = "Ваш запрос">
-                  <div class="input-group-btn">
-                    <button class = "btn btn-default btn-lg" type = "submit"><i class = "glyphicon glyphicon-search"></i></button>
-                  </div>
-                </div>
-              </div>
-            </form>
+            
 
-            <h1 id = "divergentH1">Дивергент</h1>
+            
+           
+            
+
+            <h1>Дивергент</h1>
             <hr>
             <div class = "embed-responsive embed-responsive-16by9">
-              <iframe id = "htpsjt" class = "embed-responsive-item" src="https://www.youtube.com/embed/Kj8vhIjUXmM?list=PLO7FUJHSsKrCLrn8tNaUdVrf-ku2rO7YQ"
-               frameborder="0" allowfullscreen></iframe >
+              <iframe id = "iframeId" class = "embed-responsive-item" src="https://www.youtube.com/embed/Kj8vhIjUXmM?list=PLO7FUJHSsKrCLrn8tNaUdVrf-ku2rO7YQ"
+               frameborder="0" allowfullscreen></iframe id = "Divergent2Id" >
                
                
             </div>
@@ -104,22 +99,89 @@
             
             <div class="margin-8"></div>
 
-            <h2>Отзывы об Интестеллар</h2>
-            <hr>
-            
-            <div class="panel panel-info">
-              <div class="panel-heading"><i class = "glyphicon glyphicon-user"></i><span>Сергей</span></div>
-              <div class="panel-body">
-                Отличный фильм, 3 часа пролетели не заметно.
+            <form role = "search">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="search" class = "form-control input-lg" placeholder = "Ваш запрос">
+                  <div class="input-group-btn">
+                    <button class = "btn btn-default btn-lg" type = "submit"><i class = "glyphicon glyphicon-search"></i></button>
+                  </div>
+                </div>
               </div>
-            </div>
+            </form>
 
-            <div class="panel panel-info">
-              <div class="panel-heading"><i class = "glyphicon glyphicon-user"></i><span>Дмитрий</span></div>
-              <div class="panel-body">
-                После фильма Начало, я с не терпением ждал ещё работ от Кристофера Нолана. Интестеллар меня впечатлил.
+            <hr>
+            <div class="row">
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "Divergent1Name" id = "Divergent1Id" href = "#iframeId" ><img src = "assets/img/Divergent1.jpg" alt = "дивергент">
+                <div class = "film_label">Дивергент (2014) | Divergent</div></a>
               </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "Divergent2Name" id = "Divergent2Id" href = "#iframeId"><img src = "assets/img/Divergent2.jpg" alt = "дивергент, глава 2">
+                <div class = "film_label">Дивергент, глава 2 (2015) | Insurgent</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "Divergent3Name" id = "divergent3Id" href = "#iframeId"><img src = "assets/img/Divergent3.jpg" alt = "дивергент, глава 3">
+                <div class = "film_label">Дивергент, глава 3 (2016) | Allegiant</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "PompeiiName" id = "pompeiiId" href="#iframeId"><img src = "assets/img/Pompeii.jpg" alt = "помпеи">
+                <div class = "film_label">Помпеи (2014) | Pompeii</div></a>
+              </div>
+
+              <div class = "row"></div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "GodsName" id = "godsId" href="#iframeId"><img src = "assets/img/Gods.jpg" alt = "боги египта">
+                <div class = "film_label">Боги Египта (2016) | Gods of Egypt</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "GiverName" id = "giverId" href="#iframeId"><img src = "assets/img/Giver.jpg" alt = "посвященный">
+                <div class = "film_label">Посвященный (2014) | The Giver</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "UpsideDownName" id = "upsideDownId" href="#iframeId"><img src = "assets/img/UpsideDown.jpg" alt = "параллельные миры">
+                <div class = "film_label">Параллельные миры (2011) | Upside Down</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "MidnightSunName" id = "midnightSunId" href="#iframeId"><img src = "assets/img/MidnightSun.jpg" alt = "полночное солнце">
+                <div class = "film_label">Полночное солнце (2018) | Midnight Sun</div></a>
+              </div>
+
+              <div class = "row"></div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "Pirate4Name" id = "pirate4Id" href = "#iframeId"><img src = "assets/img/Pirate4.jpg" alt = "пираты карибского моря, глава 4">
+                <div class = "film_label">Пираты Карибского моря, глава 4 (2011)</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "Pirate3Name" id = "pirate3Id" href = "#iframeId"><img src = "assets/img/Pirate3.jpg" alt = "пираты карибского моря, глава 3">
+                <div class = "film_label">Пираты Карибского моря, глава 3 (2007)</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "Pirate1Name" id = "pirate1Id" href = "#iframeId"><img src = "assets/img/Pirate1.jpg" alt = "пираты карибского моря, глава 1">
+                <div class = "film_label">Пираты Карибского моря, глава 1 (2003)</div></a>
+              </div>
+
+              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                <a name = "Pirate2Name" id = "pirate2Id" href = "#iframeId"><img src = "assets/img/Pirate2.jpg" alt = "пираты карибского моря, глава 2">
+                <div class = "film_label">Пираты Карибского моря, глава 2 (2006)</div></a>
+              </div>
+
             </div>
+            <div class="margin-8"></div>
+
+            <h2>Оставить отзыв</h2>
+            <hr>
 
             <form>
               <div class="form-group">
@@ -130,6 +192,50 @@
               </div>
               <button class = "btn btn-lg btn-warning pull-right">отправить</button>
             </form>
+            
+            <div class="margin-8"></div>
+            <br>
+            <br>
+
+            <div class="panel panel-info">
+              <div class="panel-heading"><i class = "glyphicon glyphicon-user"></i><span>Адам</span></div>
+              <div class="panel-body">
+                Фильм:Дивергент.<br><br>
+                Я считаю этот фильм странным, бесполезным. Так как в оригинале качевство минимальное.Но если бы создатели приложили бы сил,
+                то можно было бы создать хит! Ну а в целом этот фильм довольно интересный. С удовольствием буду ждать продолжения, но в хорошем 
+                качевстве.<br><br>
+                Всем любителям Голодных игр посмотрите. В целом очень интересно и не обычно.
+              </div>
+            </div>
+
+            <div class="panel panel-info">
+              <div class="panel-heading"><i class = "glyphicon glyphicon-user"></i><span>Зинаида</span></div>
+              <div class="panel-body">
+                Всем привет!<br><br>
+                Фильм:Дивергент.<br><br>
+                После прочтения книги, я очень захотела посмотреть фильм, но он все еще был не доступен в нормальном качестве.<br><br>
+                И вот он появляется в хорошем качестве, я скачиваю его и смотрю. Смотрю и разочаровываюсь. Как можно было выкинуть столько 
+                интересных сцен... Если бы я не читала книгу, я бы не поняла кто есть кто.. Первый раз я убедилась в том, что книга намного 
+                интереснее фильма.. Очень жаль. Но все таки кое кто меня порадовал. Это главный герой Тобиас. Досмотрела только из за него. 
+                Он такой отважный, сильный. Настоящий герой.<br><br>
+                Вообщем я советую всем прочитать книгу. А фильм конечно можно посмотреть, но пользы и впечатлений он не принесет таких, 
+                каких принесла мне книга!<br><br>
+                Спасибо за внимание! 
+              </div>
+            </div>
+
+            <div class="panel panel-info">
+              <div class="panel-heading"><i class = "glyphicon glyphicon-user"></i><span>Резван</span></div>
+              <div class="panel-body">
+                Фильм:Дивергент.<br><br>
+                Фильм честно признаться меня немного огорчил, но не печальностью сюжета а качеством игры актеров и виденьем автора. 
+                Я читал одноимённую книгу и мне было жаль некоторые переделанные моменты, неувязки некоторых актеров с их образами. 
+                Вобщем по моему мнению этот фильм на 3 балла, но как мне кажется этот фильм всетаки нашел своих зрителей ведь касовые 
+                сборы сполна покрыли сравнительно небольшой бюджет в 85 тысяч $. Ну что сказать будем ожидать продолжения ведь идея 
+                достаточно хорошая и заслуживает внимания. Так что если вы думаете смотреть или несмотреть, смело смотрите. Даже если не 
+                понравится сама экранизация то сюжет понравиться на 100%.
+              </div>
+            </div>
 
             <div class="margin-8"></div>
 
@@ -137,21 +243,6 @@
 
           <div class="col-lg-3 col-lg-pull-9">
             
-            <div class="panel panel-info hidden-xs">
-              <div class="panel-heading"><div class="sidebare-header">Поиск</div></div>
-              <div class="panel-body">
-                <form role = "search">
-                  <div class="form-group">
-                    <div class="input-group">
-                      <input type="search" class = "form-control input-lg" placeholder = "Ваш запрос">
-                      <div class="input-group-btn">
-                        <button class = "btn btn-default btn-lg" type = "submit"><i class = "glyphicon glyphicon-search"></i></button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
 
             <div class="panel panel-info">
               <div class="panel-heading"><div class="sidebare-header">Вход</div></div>
@@ -169,62 +260,88 @@
             </div>
 
             <div class="panel panel-info">
-              <div class="panel-heading"><div class="sidebare-header">Новости</div></div>
+              <div class="panel-heading"><div class="sidebare-header">Реклама</div></div>
               <div class="panel-body">
-               <p>31.02.2017</p>
-               <p>Мы запустили новый сервис</p>
-
+                <br><br>
+               <p>Здесь может бать размещена ваша реклама.</p>
+               <p>Контактные данные:<br> +7-903-445-95-05</p>
+               <br><br>
+               <p>Здесь может бать размещена ваша реклама.</p>
+               <p>Контактные данные:<br> +7-903-445-95-05</p>
+               <br><br>
+               <p>Здесь может бать размещена ваша реклама.</p>
+               <p>Контактные данные:<br> +7-903-445-95-05</p>
+               <br><br>
               </div>
             </div>
 
-            <div class="panel panel-info">
+             <!-- Рейтинг фильмов -->
+             <div class="panel panel-info">
               <div class="panel-heading"><div class="sidebare-header">Рейтинг фильмов</div></div>
               <div class="panel-body">
                  
                 <ul class = "list-group">
 
                   <li class = "list-group-item list-group-warning">
-                  <span class = "badge">8.9</span>
-                  <a href="#">Интестеллар</a>
+                  <span class = "badge">9.5</span>
+                  <a href="#">Дивергент</a>
+                  </li>
+
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">9.2</span>
+                    <a href="#">Дивергент 2</a>
+                  </li>
+
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">9.3</span>
+                    <a href="#">Дивергент 3</a>
+                  </li>
+
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">9.1</span>
+                    <a href="#">Помпеи</a>
+                  </li>
+
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">9.7</span>
+                    <a href="#">Боги Египта</a>
+                  </li>
+  
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">8.7</span>
+                    <a href="#">Посвященный</a>
+                  </li>
+  
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">8.3</span>
+                    <a href="#">Параллельные миры</a>
+                  </li>
+  
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">8.7</span>
+                    <a href="#">Полночное солнце</a>
                   </li>
 
                   <li class = "list-group-item list-group-warning">
                     <span class = "badge">8.7</span>
-                    <a href="#">Безумный макс</a>
+                    <a href="#">Пираты Кариб. моря 1</a>
                   </li>
-
+                  
                   <li class = "list-group-item list-group-warning">
-                    <span class = "badge">8.3</span>
-                    <a href="#">Матрица</a>
-                  </li>
-
-                  <li class = "list-group-item list-group-warning">
-                    <span class = "badge">8.1</span>
-                    <a href="#">Облачный атлас</a>
+                    <span class = "badge">9.1</span>
+                    <a href="#">Пираты Кариб. моря 2</a>
                   </li>
 
                   <li class = "list-group-item list-group-warning">
                     <span class = "badge">8.9</span>
-                    <a href="#">Интестеллар</a>
-                    </li>
-  
-                    <li class = "list-group-item list-group-warning">
-                      <span class = "badge">8.7</span>
-                      <a href="#">Безумный макс</a>
-                    </li>
-  
-                    <li class = "list-group-item list-group-warning">
-                      <span class = "badge">8.3</span>
-                      <a href="#">Матрица</a>
-                    </li>
-  
-                    <li class = "list-group-item list-group-warning">
-                      <span class = "badge">8.1</span>
-                      <a href="#">Облачный атлас</a>
-                    </li>
+                    <a href="#">Пираты Кариб. моря 3</a>
+                  </li>
 
+                  <li class = "list-group-item list-group-warning">
+                    <span class = "badge">8.5</span>
+                    <a href="#">Пираты Кариб. моря 4</a>
+                  </li>
                 </ul>
-
               </div>
             </div>
 
@@ -239,7 +356,10 @@
     <!-- Подвал сайта -->
     <footer>
       <div class="container">
-        <p class="text-center"><a href="#">WH-DB.COM</a></p>
+        <div class="col-lg-12">
+          <h1><a href="#">КиноМонстр</a></h1>
+          <p>Кино - наша страсть!</p>
+        </div>
       </div>
     </footer>
     
